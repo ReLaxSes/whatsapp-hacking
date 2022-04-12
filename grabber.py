@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-browser = webdriver.Firefox()  # init browser
+browser = webdriver.Chrome()  # init browser
 browser.get("https://web.whatsapp.com/")  # open whatsapp web
 
 # wait up to 10 secs until the qr code is loaded and get it
